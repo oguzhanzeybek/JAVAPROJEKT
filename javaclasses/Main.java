@@ -5,18 +5,27 @@ public class Main {
      * @param args
      */
     public static void main(String[] args) {
-       int sayi1 =99;
-       int sayi2 = 66;
-       int sayi3 = 33;
-       int enBüyükSayi = sayi1;
+        char not = 'D';
 
-       if(enBüyükSayi <sayi2 ){
-       enBüyükSayi=sayi2;
-       };
-       if(enBüyükSayi<sayi3){
-       enBüyükSayi=sayi3;
-       }
-      System.out.println("en buyuk sayi=" +enBüyükSayi );
-        
+        switch (not) {
+            case 'A':
+                System.out.println("mukemmel:geçtiniz");
+                break;
+            case 'B':
+                System.out.println("İDARE EDER:geçtiniz");
+                break;
+            case 'C':
+                System.out.println("ZORLAYA ZORLAYA:geçtiniz");
+                break;
+            case 'D':
+                System.out.println("AZ DAHA KALIYODUN:geçtiniz");
+                break;
+            case 'F':
+                System.out.println("HAHAHAHHA:KALDIN!!!");
+                break;
+            default:
+                System.out.println("gecersiz not girildi");
+
+        }
     }
 }
