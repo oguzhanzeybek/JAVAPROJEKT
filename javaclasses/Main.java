@@ -13,11 +13,20 @@ public class Main {
         System.out.println("for dongusu bitti");
 
         int i = 1;
-        while(i<100){
+        while (i < 100) {
             System.out.println(i);
-            i+=5;
-        } System.out.println(" while dongusu bitti");
+            i += 5;
+        }
+        System.out.println(" while dongusu bitti");
+
+        int a = 100;
+        do {
+
+            System.out.println(a);
+            a += 2;
+
+        } while (a < 50);
+        System.out.println("do- while dongusu bitti");
 
     }
-
 }
