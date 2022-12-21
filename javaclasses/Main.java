@@ -16,14 +16,15 @@ public class Main {
                 
             }
           
-            if (sayi== aranan) {
-                System.out.println("aranan sayi listede");
-                break;
-            } else {
-                System.out.println("aranan sayi listede yok");
-                break;
-            }
 
+        }
+        
+        if (varMiAcaba) {
+            System.out.println("aranan sayi listede");
+            
+        } else {
+            System.out.println("aranan sayi listede yok");
+            
         }
     }
 
