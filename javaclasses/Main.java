@@ -24,13 +24,17 @@ public class Main {
         }
 
         if (varMiAcaba) {
-            System.out.println("aranan sayi listede");
+            mesajver("aranan sayi listede: "+aranan);
 
         } else {
-            System.out.println("aranan sayi listede yok");
+            mesajver("aranan sayi listede degil: : "+aranan);
 
         }
 
+    }
+
+    public static void mesajver(String mesaj){
+        System.out.println(mesaj); 
     }
 
 }
