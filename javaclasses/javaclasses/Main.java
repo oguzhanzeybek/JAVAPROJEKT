@@ -15,6 +15,15 @@ public class Main {
        musteriyappici.Add();
        musteriyappici.Add(49586);
 
+       int sayi1=10;
+       int sayi2=20;
+       sayi1=sayi2;  
+       sayi2=30;              //stack de sayi1 sayi2 ye eşit diye okunur.bu yuzden cevap 20 olmustur.
+       System.out.println(sayi1);
+
+
+
+
     }
 
 }
