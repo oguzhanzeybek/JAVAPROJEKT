@@ -3,6 +3,10 @@ public class Product {
   public Product(int id){
     System.out.println("calisti");
   }
+  public Product(){
+
+  }
+  
   private int _id; //veya int_id;
   private String name;
   private String description; // attribut-field
