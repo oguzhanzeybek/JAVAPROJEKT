@@ -7,3 +7,4 @@ public class Main {
     }
 
 }
+//basekredimanager tarim ve ogretmenin annesi oldugu için onlarin yerine kullanilabilir.ve hata vermez
