@@ -3,4 +3,6 @@ public class ProduckManager {
        //JDBC
        System.out.println("urun eklendi " +product.name);
     }
+
+   
 }
