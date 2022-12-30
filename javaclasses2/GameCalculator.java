@@ -1,5 +1,7 @@
-public class GameCalculator {
-    public void hesapla(){
-        System.out.println("puanİnİz: 100");
+public abstract class GameCalculator {
+    public abstract void hesapla();
+
+    public final void gameOver() {
+        System.out.println("oyun bitti");
     }
 }
