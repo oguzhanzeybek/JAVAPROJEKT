@@ -1,11 +1,13 @@
-import java.lang.System.Logger;
+
 
 public class Main {
 
     public static void main(String[] args) {
-        BaseLogger[] loggers = new BaseLogger[] { new FileLogger(), new EmailLogger(), new DatabaseLogger() };
+        BaseLogger[] loggers = new BaseLogger[] { new FileLogger(), new EmailLogger(), new DatabaseLogger(),
+                new ConsoleLogger() };
+
         for (BaseLogger logger : loggers) {
-            logger.Log("log mesaji");
+            logger.Log("log mesaji ");
 
         }
     }
