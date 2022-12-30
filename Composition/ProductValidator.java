@@ -1,6 +1,6 @@
 public class ProductValidator {
-    public boolean isValid(Product product) {
-        if (product.preis > 0 && product.name.isEmpty()) {
+    public static boolean isValid(Product product) {
+        if (product.preis > 0 && !product.name.isEmpty()) { // ! degilse demek
             return true;
         }
         return false;
