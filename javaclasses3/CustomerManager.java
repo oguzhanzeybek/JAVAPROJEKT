@@ -1,7 +1,7 @@
 public class CustomerManager {
     BaseDatabaseManager baseDatabaseManager;
 
-    public void getCustoms() {
+    public void getCustomers() {
         baseDatabaseManager.getData();
     }
 
