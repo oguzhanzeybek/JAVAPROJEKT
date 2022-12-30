@@ -9,7 +9,7 @@ public class Main {
          //   logger.Log("log mesaji ");
 
          CustomManger customManger= new CustomManger(new FileLogger());
-         customManger.Add();
+         customManger.add();
 
         }
     }

@@ -5,8 +5,8 @@ public class CustomManger {
         this.logger = logger;
     }
 
-    public void Add() {
+    public void add() {
         System.out.println("musteri eklendi");
-        this.logger.Log("log mesaji");
+        this.logger.log("log mesaji");
     }
 }
