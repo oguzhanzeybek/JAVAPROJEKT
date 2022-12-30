@@ -5,6 +5,7 @@ public class Main {
     womanGameCalculator.hesapla();
     womanGameCalculator.gameOver();
     manGameCalculator.hesapla();
-    GameCalculator gameCalculator= new WomanGameCalculator();
+    GameCalculator gameCalculator= new OlderGameCalculator();
+    gameCalculator.hesapla();//oldergamecal. cagırıldı
     }
 }
