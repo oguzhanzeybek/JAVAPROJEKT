@@ -7,4 +7,5 @@ public class Main {
         product.id = 1;
         manager.add(product);
     }
-}
+}// static de olusan nesne kullanıldıktan sonra atılmaz.bu yuzden olavildiignce
+ // az kullan.static yapılırsa bir sınıf class ısmıyle cagrılabılır
