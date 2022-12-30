@@ -1,4 +1,4 @@
-public class MySqlCustomerDal implements ICustomerDal {
+public class MySqlCustomerDal implements ICustomerDal,IRepository { // BİRDEN FAZLA SINIFTAN KALITIM ALABILIR.
 
     @Override
     public void Add() {
