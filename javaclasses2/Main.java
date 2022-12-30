@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        BaseKrediManager[] krediManagers = new BaseKrediManager[] { new OgretmenKrediManager(),
+        BaseKrediManager[] krediManagers = new BaseKrediManager[] { new OgretmenKrediManager(),new OgrenciKrediManager(),
                 new TarimKrediManager() };
       for(BaseKrediManager krediManager:krediManagers){
-        System.out.println(krediManager.hesapla(100));
+        System.out.println(krediManager.hesapla(100 ));
 
       }
     }
