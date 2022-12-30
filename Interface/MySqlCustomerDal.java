@@ -1,6 +1,9 @@
 public class MySqlCustomerDal implements ICustomerDal {
 
     @Override
-    public void Add() {} //eklemesi zorunludur.
-    
+    public void Add() {
+        System.out.println("MySql eklendi");
+
+    } // eklemesi zorunludur.
+
 }
