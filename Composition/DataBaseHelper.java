@@ -7,7 +7,8 @@ public class DataBaseHelper {
     }
     public static class Connections{
         public static void createConnecions(){
-            
+
         }
     }
-}
+    
+} 
